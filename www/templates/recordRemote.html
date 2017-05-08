@@ -1,0 +1,6 @@
+<ion-view view-title="Record Remote">
+  <ion-content>
+    <div ng-if="!formData.alternateView" ng-include src="'templates/partials/recordRemoteInitial.html'"></div>
+    <div ng-if="formData.alternateView" ng-include src="'templates/partials/recordRemoteActive.html'"></div>
+  </ion-content>
+</ion-view>
